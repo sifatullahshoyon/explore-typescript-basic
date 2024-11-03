@@ -47,6 +47,8 @@
   let friendsRollNumber: number[] = [5, 6, 9, 7, 3, 2, 1];
   // friendsRollNumber.push('shoyon'); Argument of type 'string' is not assignable to parameter of type 'number'.ts(2345)
 
+  
+
   // tuple --> array --> order --> type of values
 
   let coordinates: [number, number] = [1, 5];

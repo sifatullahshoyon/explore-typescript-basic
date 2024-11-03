@@ -3,6 +3,7 @@
 
   const user: {
     // company: 'Dev Daynamos'; // type --> literal types
+    // Readonly
     readonly company: string; // type --> literal types
     firstName: string;
     middleName?: string; //optional type
@@ -18,7 +19,7 @@
 
   // user.company = 'Daynamic Codars'; // Error Cannot assign to 'company' because it is a read-only property.ts(2540)
 
-  // Readonly
+  
   const user1: {
     company: string; // type --> literal types
     firstName: string;
